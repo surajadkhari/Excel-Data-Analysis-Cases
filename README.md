@@ -75,6 +75,8 @@ Here are the key questions tackled in this project:
   =LARGE(Revenue_Column, 3)
 📍 Data Cleaning Challenge
 Fix inconsistent text formatting:
+```excel
+
 =PROPER(A2)   ' Capitalizes names properly
 =TRIM(B2)     ' Removes extra spaces
 =SUBSTITUTE(C2, "-", "")  ' Removes dashes from phone numbers

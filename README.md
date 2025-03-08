@@ -73,6 +73,13 @@ Here are the key questions tackled in this project:
 - **Find the 3rd highest revenue transaction** using:
   ```excel
   =LARGE(Revenue_Column, 3)
+📍 Data Cleaning Challenge
+Fix inconsistent text formatting:
+=PROPER(A2)   ' Capitalizes names properly
+=TRIM(B2)     ' Removes extra spaces
+=SUBSTITUTE(C2, "-", "")  ' Removes dashes from phone numbers
+
+
 📚 About Me
 I am actively learning Excel for Data Analytics and have been working through case studies to improve my analytical skills. This repository is a reflection of my progress, showcasing my ability to handle real-world data challenges using Excel.
 
